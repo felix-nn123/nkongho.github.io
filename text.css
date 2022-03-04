@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
 #home {
-  background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg)
-    repeat center center fixed;
+  background: black;
+  /* repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
   background-size: cover;
   font-family: 'Barlow', sans-serif;
+  opacity: 0.8;
 }
 .container {
   width: 100%;
@@ -395,7 +396,7 @@ p.demos {
   height: 50px;
   width: 900px;
   position: absolute;
-  background: #aefeff;
+  background: #7952b3;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -474,7 +475,7 @@ p.demos {
 }
 
 .cardServicesContainer .cardServiceSeeWork {
-  background-color: #aefeff;
+  background-color: #7952b3;
   position: absolute;
   color: black;
   bottom: 70px;
@@ -489,7 +490,7 @@ p.demos {
 .cardServicesContainer .cardServiceSeeWork:hover {
   background-color: white;
   color: black;
-  border: 2px solid #aefeff;
+  border: 2px solid #7952b3;
 }
 
 /* Footer.js component Styling */
@@ -531,7 +532,7 @@ p.demos {
 }
 
 .iconContainer a {
-  color: #aefeff;
+  color: #7952b3;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -570,7 +571,7 @@ p.demos {
 /* Header.js Component stylings */
 
 #navbarText .nav-link:hover {
-  color: #aefeff;
+  color: #7952b3;
   border: 1px solid white;
 }
 .App-header nav {
@@ -644,11 +645,12 @@ p.demos {
   font-size: 35px;
   font-family: 'Amiri', serif;
   line-height: 0.1;
+  color: white;
 }
 .homeHelloInnerContainer h1 {
   font-family: 'Alfa Slab One', cursive;
   font-weight: 100;
-  color: #072227;
+  color: #346751;
 }
 
 .landingPageBar {
@@ -656,7 +658,7 @@ p.demos {
   position: absolute;
   height: auto;
   margin-left: 70px;
-  background-color: #aefeff;
+  background-color: #7952b3;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -682,7 +684,7 @@ p.demos {
 }
 
 .downloadResumeContainer a {
-  background-color: #072227;
+  background-color: #346751;
   color: white;
   border-radius: 10px;
   font-family: 'Amiri', serif;
@@ -717,7 +719,7 @@ p.demos {
 
 .TitleH4Container h4 {
   text-align: center;
-  color: #aefeff;
+  color: #7952b3;
   font-family: 'Amiri', serif;
   margin-top: 70px;
 }
@@ -747,7 +749,7 @@ p.demos {
   width: 24%;
 }
 .projectCardContainer .card:hover {
-  border: solid 2px #aefeff;
+  border: solid 2px #7952b3;
   cursor: pointer;
   width: 24.1%;
 }
@@ -769,7 +771,7 @@ p.demos {
 
 .cardProjectDescription {
   font-weight: bold;
-  color: #aefeff;
+  color: #7952b3;
   margin-right: 5px;
 }
 
@@ -780,7 +782,7 @@ p.demos {
 
 .lngTitleSpan {
   font-weight: bold;
-  color: #aefeff;
+  color: #7952b3;
   margin-right: 5px;
 }
 
@@ -792,8 +794,8 @@ p.demos {
 }
 
 .projectCardContainer .goToWebLink {
-  color: #072227;
-  background-color: #aefeff;
+  color: white;
+  background-color: #7952b3;
   font-weight: bold;
   border-radius: 10px;
   font-family: 'Amiri', serif;
@@ -801,7 +803,8 @@ p.demos {
 
 .projectCardContainer .goToWebLink:hover {
   background-color: white;
-  border: 1px solid #072227;
+  border: 1px solid #7952b3;
+  color: #7952b3;
 }
 
 .mobileAppContainer {
@@ -816,8 +819,13 @@ p.demos {
   align-items: center;
 }
 .appStoreContainer a {
-  color: #072227;
-  background-color: #aefeff;
+  color: white;
+  background-color: #7952b3;
+}
+.appStoreContainer a:hover {
+  background-color: white;
+  border: 1px solid #7952b3;
+  color: #7952b3;
 }
 
 /* Projects Component Stylings */
@@ -837,7 +845,7 @@ p.demos {
 }
 
 #projects p {
-  color: #aefeff;
+  color: #7952b3;
   font-size: 16px;
   font-family: 'Amiri', serif;
   text-align: center;
