@@ -1028,6 +1028,11 @@ p.demos {
     visibility: hidden;
     position: absolute;
   }
+  .projectCardContainer .card:hover {
+    border: solid 2px #7952b3;
+    cursor: pointer;
+    width: 99%;
+  }
 }
 
 /* .App {
