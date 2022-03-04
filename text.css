@@ -1021,6 +1021,13 @@ p.demos {
     visibility: visible;
     position: relative;
   }
+  .sp-content .frame-1 {
+    font-size: 14px;
+  }
+  .sp-content .frame-2 {
+    visibility: hidden;
+    position: absolute;
+  }
 }
 
 /* .App {
