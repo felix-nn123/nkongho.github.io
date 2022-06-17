@@ -810,18 +810,19 @@ p.demos {
 
 .mobileAppContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .appStoreContainer {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 .appStoreContainer a {
   color: white;
   background-color: #7952b3;
+  width: 50%;
 }
 .appStoreContainer a:hover {
   background-color: white;
