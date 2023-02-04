@@ -581,7 +581,8 @@ p.demos {
   border-bottom: 1px solid #666362;
   padding: 0 10px;
   background-color: black;
-  opacity: 0.9;
+  position: fixed;
+  z-index: 20;
 }
 
 .navbar .navbar-toggler {
