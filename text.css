@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+.PrivacyBody {
+  padding: 20px 50px;
+}
 
 #home {
   background: black;
@@ -7,7 +11,7 @@
   -moz-background-size: cover;
   -o-background-size: cover; */
   background-size: cover;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   opacity: 0.8;
 }
 .container {
@@ -143,7 +147,7 @@ p.demos {
   -moz-animation: fadeInBack 3.6s linear 14s backwards;
   -ms-animation: fadeInBack 3.6s linear 14s backwards;
   animation: fadeInBack 3.6s linear 14s backwards;
-  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=30)';
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
   filter: alpha(opacity=30);
   opacity: 0.3;
   -webkit-transform: scale(5);
@@ -390,7 +394,7 @@ p.demos {
   text-align: left;
   margin-left: 20px;
   font-weight: bold;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 .aboutBannerContainer {
@@ -404,7 +408,7 @@ p.demos {
   padding-left: 20px;
   font-weight: bold;
   font-size: 16px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 .smallImageAboutMe {
@@ -421,13 +425,13 @@ p.demos {
 .aboutFirstPara {
   margin-top: 70px;
   text-align: left;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   font-size: 17px;
 }
 
 .aboutSecondPara {
   text-align: left;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   font-size: 17px;
 }
 
@@ -466,13 +470,13 @@ p.demos {
 }
 
 .cardServicesContainer .cardContainer .title {
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   font-size: 18px;
 }
 
 .cardServicesContainer .cardContainer p {
   margin-top: 20px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 .cardServicesContainer .cardServiceSeeWork {
@@ -485,7 +489,7 @@ p.demos {
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 .cardServicesContainer .cardServiceSeeWork:hover {
@@ -509,7 +513,7 @@ p.demos {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   margin-left: 15%;
 }
 
@@ -550,7 +554,7 @@ p.demos {
 .footerTelephoneContainer .textContainer {
   color: white;
   font-size: 20px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 .footerTelephoneContainer .textContainer i {
@@ -566,7 +570,7 @@ p.demos {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 /* Header.js Component stylings */
@@ -597,7 +601,7 @@ p.demos {
 #navbarText a {
   font-size: 18px;
   color: white;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 /* LandingPage.js Component Stylings */
@@ -645,12 +649,12 @@ p.demos {
 .homeHelloInnerContainer p {
   text-align: left;
   font-size: 35px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   line-height: 0.1;
   color: white;
 }
 .homeHelloInnerContainer h1 {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   font-weight: 100;
   color: #346751;
 }
@@ -670,7 +674,7 @@ p.demos {
 .typingContainer {
   flex: 1.1;
   text-align: left;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   justify-content: center;
   align-items: center;
   padding: 25px 0;
@@ -689,14 +693,14 @@ p.demos {
   background-color: #346751;
   color: white;
   border-radius: 10px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 .downloadResumeContainer a:hover {
   border: 1px solid #072227;
   background-color: white;
   color: #072227;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   border-radius: 10px;
 }
 
@@ -722,7 +726,7 @@ p.demos {
 .TitleH4Container h4 {
   text-align: center;
   color: #7952b3;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   margin-top: 70px;
 }
 
@@ -762,13 +766,13 @@ p.demos {
 }
 
 .projectCardContainer h5 {
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   font-weight: bold;
   text-align: center;
 }
 
 .projectCardContainer p {
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   font-size: 17px;
 }
 
@@ -779,7 +783,7 @@ p.demos {
 }
 
 .projectCardContainer .list-group-item {
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   font-size: 17px;
 }
 
@@ -801,7 +805,7 @@ p.demos {
   background-color: #7952b3;
   font-weight: bold;
   border-radius: 10px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
 }
 
 .projectCardContainer .goToWebLink:hover {
@@ -843,7 +847,7 @@ p.demos {
 
 #projects h4 {
   color: white;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   font-weight: bold;
   text-align: center;
 }
@@ -851,7 +855,7 @@ p.demos {
 #projects p {
   color: #7952b3;
   font-size: 16px;
-  font-family: 'Amiri', serif;
+  font-family: "Amiri", serif;
   text-align: center;
 }
 
