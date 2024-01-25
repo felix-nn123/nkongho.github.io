@@ -1,7 +1,54 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow");
 
+.goolePlaystoreBtn {
+  background-color: #7952b3;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+}
+
+.goolePlaystoreBtn:hover {
+  border: 2px solid #7952b3;
+  background-color: white;
+  color: #7952b3;
+}
 .PrivacyBody {
   padding: 20px 50px;
+}
+.homeServProjCon {
+  margin-left: 20px;
+}
+.homeServProjCon .nav-item {
+  color: white;
+}
+.homeServProjCon .nav-link {
+  color: white;
+  font-family: "Amiri", serif;
+  margin: 0 2px;
+}
+
+.homeServProjCon .nav-link:hover {
+  color: black;
+  border-radius: 10px;
+  background: #346751;
+  border-radius: 20px;
+}
+.homeServProjCon .nav-item:hover {
+  color: blueviolet;
+}
+
+.hide {
+  display: none;
+}
+
+.homeServProjCon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #home {
@@ -63,7 +110,7 @@ p.demos {
   height: 100%;
   left: 0px;
   top: 0px;
-  z-index: 1000;
+  z-index: 100;
 }
 .sp-container h2 {
   position: relative;
@@ -74,6 +121,7 @@ p.demos {
   font-size: 25px;
   width: 100%;
   text-align: center;
+  padding-left: 32%;
   color: white;
   -webkit-animation: blurFadeInOut 3s ease-in backwards;
   -moz-animation: blurFadeInOut 3s ease-in backwards;
@@ -134,28 +182,7 @@ p.demos {
   -ms-animation-delay: 14s;
   animation-delay: 14s;
 }
-.sp-globe {
-  position: absolute;
-  width: 282px;
-  height: 273px;
-  left: 50%;
-  top: 50%;
-  margin: -137px 0 0 -141px;
-  background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png)
-    no-repeat top left;
-  -webkit-animation: fadeInBack 3.6s linear 14s backwards;
-  -moz-animation: fadeInBack 3.6s linear 14s backwards;
-  -ms-animation: fadeInBack 3.6s linear 14s backwards;
-  animation: fadeInBack 3.6s linear 14s backwards;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-  filter: alpha(opacity=30);
-  opacity: 0.3;
-  -webkit-transform: scale(5);
-  -moz-transform: scale(5);
-  -o-transform: scale(5);
-  -ms-transform: scale(5);
-  transform: scale(5);
-}
+
 .sp-circle-link {
   position: absolute;
   left: 50%;
@@ -366,14 +393,14 @@ p.demos {
 
 /* aboutMe.js component styling */
 .navlogo {
-  width: 50px;
+  width: 80px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 5px;
 }
 #about {
   width: 100%;
   height: 700px;
-  padding: 100px 200px;
+  padding: 100px 20%;
 }
 
 .aboutInnerContainer {
@@ -381,6 +408,7 @@ p.demos {
   height: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .aboutTextContainer {
@@ -441,10 +469,12 @@ p.demos {
 
 .aboutImageContainer {
   z-index: 1;
-  position: absolute;
-  width: 200px;
-  height: 400px;
-  right: 30%;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  margin-top: 81.5px;
+  overflow: hidden;
+  border: #346751 2px solid;
 }
 
 .aboutImage {
@@ -482,7 +512,7 @@ p.demos {
 .cardServicesContainer .cardServiceSeeWork {
   background-color: #7952b3;
   position: absolute;
-  color: black;
+  color: white;
   bottom: 70px;
   left: 0;
   right: 0;
@@ -494,7 +524,7 @@ p.demos {
 
 .cardServicesContainer .cardServiceSeeWork:hover {
   background-color: white;
-  color: black;
+  color: #7952b3;
   border: 2px solid #7952b3;
 }
 
@@ -515,6 +545,11 @@ p.demos {
   font-size: 20px;
   font-family: "Amiri", serif;
   margin-left: 15%;
+}
+
+#contact .footerEmail:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .footerEmail i {
@@ -575,9 +610,15 @@ p.demos {
 
 /* Header.js Component stylings */
 
+#navbarText .nav-item {
+  margin: 0 2px;
+}
+
 #navbarText .nav-link:hover {
-  color: #7952b3;
-  border: 1px solid white;
+  color: black;
+  border-radius: 10px;
+  background: #346751;
+  border-radius: 20px;
 }
 .App-header nav {
   width: 100%;
@@ -587,7 +628,18 @@ p.demos {
   padding: 0 10px;
   background-color: black;
   position: fixed;
-  z-index: 20;
+  z-index: 100000000;
+}
+
+.App-header1 nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #666362;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 100000000;
 }
 
 .navbar .navbar-toggler {
@@ -616,7 +668,7 @@ p.demos {
 }
 
 .landingPageEmptyContainer {
-  flex: 1;
+  flex: 0.8;
 }
 
 .homeInnerContainer {
@@ -636,6 +688,7 @@ p.demos {
   height: 400px;
   margin-left: 25%;
   border-radius: 10px;
+  border: 2px solid #346751;
 }
 
 .homeHelloContainer {
@@ -660,7 +713,7 @@ p.demos {
 }
 
 .landingPageBar {
-  width: 60%;
+  width: 52%;
   position: absolute;
   height: auto;
   margin-left: 70px;
@@ -669,6 +722,7 @@ p.demos {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .typingContainer {
@@ -681,12 +735,13 @@ p.demos {
 }
 
 .downloadResumeContainer {
-  /* position: absolute; */
-  width: 200px;
+  width: 100%;
   height: 50px;
-  /* right: 35%; */
-  /* margin-top: 170px; */
   z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15%;
 }
 
 .downloadResumeContainer a {
@@ -697,9 +752,9 @@ p.demos {
 }
 
 .downloadResumeContainer a:hover {
-  border: 1px solid #072227;
+  border: 1px solid #346751;
   background-color: white;
-  color: #072227;
+  color: #346751;
   font-family: "Amiri", serif;
   border-radius: 10px;
 }
@@ -712,6 +767,7 @@ p.demos {
 #services {
   width: 100%;
   height: 800px;
+  position: relative;
 }
 
 #services .TitleH4Container {
@@ -719,8 +775,7 @@ p.demos {
   height: 800px;
   position: absolute;
   z-index: 1;
-  background: black;
-  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .TitleH4Container h4 {
@@ -752,13 +807,13 @@ p.demos {
 }
 
 .projectCardContainer .card {
-  width: 24%;
+  width: 30%;
 }
 .projectCardContainer .card:hover {
   border: solid 2px #7952b3;
   z-index: 3;
   cursor: pointer;
-  width: 24.1%;
+  width: 30%;
 }
 
 .projectCardContainer .card-img-top {
@@ -887,7 +942,7 @@ p.demos {
   #services {
     width: 100%;
     height: 1000px;
-    padding: 0 7px;
+    padding: 0 0px;
   }
 }
 
@@ -912,6 +967,12 @@ p.demos {
 }
 
 @media (max-width: 991px) {
+  .homeServProjCon {
+    display: none;
+  }
+  .hide {
+    display: block;
+  }
   #navbarText {
     position: relative;
     right: 5px;
@@ -938,11 +999,13 @@ p.demos {
 
   .cardServicesContainer {
     flex-wrap: wrap;
+    padding: 0 5px;
   }
 
   .cardServicesContainer .cardContainer {
-    width: 99%;
+    width: 100%;
     margin-top: 120px;
+    padding: 0;
   }
   #about {
     padding: 50px 70px;
