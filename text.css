@@ -731,7 +731,7 @@ p.demos {
 }
 
 .landingPageBar {
-  width: 52%;
+  width: 850px;
   position: absolute;
   height: auto;
   margin-left: 70px;
@@ -932,7 +932,7 @@ p.demos {
   text-align: center;
 }
 
-@media (max-width: 1345px) {
+/* @media (max-width: 1345px) {
   .landingPageBar {
     width: 80%;
     position: relative;
@@ -947,9 +947,7 @@ p.demos {
   .landingPageEmptyContainer {
     flex: 1.4;
   }
-  .downloadResumeContainer {
-    /* right: 22%; */
-  }
+
 
   #projects {
     height: 1100px;
@@ -958,7 +956,7 @@ p.demos {
   #services {
     height: 1000px;
   }
-}
+} */
 
 @media (max-width: 1157px) {
   #services .TitleH4Container,
