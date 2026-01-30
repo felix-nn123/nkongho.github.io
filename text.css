@@ -11,6 +11,16 @@
   color: white;
 }
 
+.pictureIntroContainer{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
 .goolePlaystoreBtn:hover {
   border: 1px solid #7952b3;
   background-color: white;
@@ -925,9 +935,14 @@ p.demos {
 @media (max-width: 1345px) {
   .landingPageBar {
     width: 80%;
+    position: relative;
   }
   .homeHelloContainer {
-    padding: 100px 100px;
+    padding: 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .landingPageEmptyContainer {
     flex: 1.4;
@@ -975,6 +990,10 @@ p.demos {
 }
 
 @media (max-width: 991px) {
+  .pictureIntroContainer{
+            position: relative;
+            flex-direction: column;
+          }
   .homeServProjCon {
     display: none;
   }
@@ -987,12 +1006,31 @@ p.demos {
     margin-left: 0;
   }
 
+  .homeHelloInnerContainer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .homeInnerContainer {
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+  }
+
+    .homeImageContainer img {
+    width: 70px;
+    height: 70px;
   }
 
   .landingPageBar {
     width: 85%;
+    position: relative;
   }
 
   .landingPageEmptyContainer {
@@ -1008,12 +1046,17 @@ p.demos {
   .cardServicesContainer {
     flex-wrap: wrap;
     padding: 0 5px;
+    height: auto;
+    margin-top: 5px;
   }
+
+
 
   .cardServicesContainer .cardContainer {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 10px;
     padding: 0;
+    height: auto;
   }
   #about {
     padding: 50px 70px;
@@ -1053,10 +1096,6 @@ p.demos {
     height: 220px;
     margin-left: 1%;
     border-radius: 10px;
-  }
-  .homeHelloContainer {
-    flex: 1;
-    padding: 90px 0;
   }
 
   .homeHelloInnerContainer p {
@@ -1113,6 +1152,23 @@ p.demos {
     cursor: pointer;
     width: 99%;
   }
+
+  .sp-container h2 {
+  position: relative;
+  top: 50%;
+  line-height: 100px;
+  height: 90px;
+  margin-top: -50px;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  padding-left: 0%;
+  color: white;
+  -webkit-animation: blurFadeInOut 3s ease-in backwards;
+  -moz-animation: blurFadeInOut 3s ease-in backwards;
+  -ms-animation: blurFadeInOut 3s ease-in backwards;
+  animation: blurFadeInOut 3s ease-in backwards;
+}
 }
 
 /* .App {
